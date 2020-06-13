@@ -1,5 +1,9 @@
-fn main() {
-    variables_mutables();
+fn variables_mutables()
+{
+    let mut a = 5;
+    println!("Hola mundo {}", a);
+    a = 20;
+    println!("Hola mundo {}", a);
 }
 
 fn hola_mundo() 
@@ -8,10 +12,7 @@ fn hola_mundo()
     println!("Hola mundo {}", a);
 }
 
-fn variables_mutables()
-{
-    let mut a = 5;
-    println!("Hola mundo {}", a);
-    a = 20;
-    println!("Hola mundo {}", a);
+fn main() {
+    variables_mutables();
 }
+
