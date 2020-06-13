@@ -1,15 +1,15 @@
 fn hola_mundo() 
 {
     let a = 5;
-    println!("Hola mundo {}", a);
+    println!("Hello World {}", a);
 }
 
 fn variables_mutables()
 {
     let mut a = 5;
-    println!("Hola mundo {}", a);
+    println!("Hello World {}", a);
     a = 20;
-    println!("Hola mundo {}", a);
+    println!("Hello World {}", a);
 }
 
 /*  Data Type
@@ -29,7 +29,7 @@ fn variables_mutables()
 
 fn data_type(a:i8, b:i8)
 {
-    println!("Hola mundo {}", a + b);
+    println!("Hello World {}", a + b);
 }
 
 fn data_type_dos()
