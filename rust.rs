@@ -1,9 +1,7 @@
-fn HelloWorld()
-{
-    println!("Hola mundo");
+fn main() {
+    hola_mundo();
 }
 
-fn main()
-{
-    HelloWorld();
+fn hola_mundo() {
+    println!("Hola mundo");
 }
