@@ -1,4 +1,3 @@
-/*
 fn hola_mundo() 
 {
     let a = 5;
@@ -12,7 +11,7 @@ fn variables_mutables()
     a = 20;
     println!("Hello World {}", a);
 }
-*/
+
 /*  Data Type
     bool
     char
@@ -27,7 +26,6 @@ fn variables_mutables()
     f32     : point floating 32 bits
     f64     : point floating 64 bits
 */
-/*
 fn data_type(a:i8, b:i8)
 {
     println!("Hello World {}", a + b);
@@ -40,7 +38,6 @@ fn data_type_dos()
 
     println!("{}, {}, {:p}, {:p}", a, b, b, &a);
 }
-*/
 
 fn read_data()
 {
