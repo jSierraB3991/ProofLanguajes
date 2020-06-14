@@ -96,4 +96,22 @@ def ciclos():
     for numero in range(len(texto)):
         print(numero)    
     
-ciclos()
+def funciones():
+    print(suma(4,8))
+    print("----------------------------");
+    colores("red", "blue", "green")
+    print("----------------------------");
+    diminombre()
+    
+
+def suma(num1, num2):
+    return num1 + num2
+
+def colores(*colores):
+    print(colores)
+    print("Tu color es: " + colores[1])
+
+def diminombre(nombre = "Luis"):
+    print("Hola {}".format(nombre))
+
+funciones()
