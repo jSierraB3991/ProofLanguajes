@@ -65,6 +65,35 @@ def cadenas():
     print("tu eres el \"mejor\"")
 
 def condicionales():
-    
+    numero = 20
+    numero2 = 5
 
-cadenas()
+    if(numero > numero2): print("{} es mayor a {}".format(numero, numero2));
+    elif(numero2 > numero): print("{} es mayor a {}".format(numero2, numero));
+    else: print("{} y {} son iguales".format(numero, numero2));
+
+
+def ciclos():
+
+    number = 0
+    while number < 10:
+        number += 1
+        if(number==5):
+            continue
+        print(number)
+
+    print("----------------------------");
+    colores = ["red", "yellow", "blue"]
+    for color in colores:
+        print(color)
+
+    print("----------------------------");
+    texto = "computadora"
+    for caracter in texto:
+        print(caracter)
+
+    print("----------------------------");
+    for numero in range(len(texto)):
+        print(numero)    
+    
+ciclos()
