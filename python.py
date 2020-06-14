@@ -39,5 +39,32 @@ def app():
     print(type(int(number)))
     print(int(number))
 
+def cadenas():
+    texto = "Hola, Mundo"
+    texto2 = "              Hola, Mundo h"
+    # print(len(texto))
+    #print(texto[0])
+    print(texto[0:4 ])
+    print(texto2.strip())#elimina lo espacios del principio
+    print(texto.upper()); #texto a mayúsculas
+    print(texto.lower()); #texto a minúsculas
+    print(texto2.strip().replace("H", "X")) #reemplaza caracteres
+    #for dato in texto:
+    #    print(dato)
 
-app()
+    print("-------------------------")
+    print(type(texto.split(",")))
+    print(texto.split(",")) #convierte la cadena en lista
+    
+    print("-------------------------")
+    ispresent = "Mun" in texto # in -> esta, not in -> no esta
+    print(ispresent)
+    print(type(ispresent))
+
+    print("-------------------------")
+    print("tu eres el \"mejor\"")
+
+def condicionales():
+    
+
+cadenas()
