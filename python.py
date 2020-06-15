@@ -114,4 +114,59 @@ def colores(*colores):
 def diminombre(nombre = "Luis"):
     print("Hola {}".format(nombre))
 
-funciones()
+
+def listas():
+    colores = ["red", "blue", "green", "yellow"]
+    print(type(colores))
+    print(len(colores))
+    print(colores[0:5])
+    for color in colores:
+        print(color)
+    for i in range(len(colores)):
+        print(colores[i])
+
+    colores.pop()
+    print(colores)
+    colores.append("brown")
+    print(colores)
+    colores.insert(1, "White")
+    print(colores)
+    colores.remove("red")
+    print(colores)
+    colores[1] = "Black"
+    print(colores)
+    
+def tuples():
+    animales = ("perro", "gato", "conejo")
+    print(type(animales))
+    print(len(animales))
+    print(animales)
+    print(animales[1])
+    for animal in animales:
+        print(animal)
+
+    if "perro" in animales:
+        print("El perro se encuentra en la tuple")
+
+    print("-------------------------------------")
+    # numeros = ("uno") string
+    numeros = ("uno", ) #tupla
+    print(type(numeros))
+
+def diccionary():
+    persona = {
+        "nombre": "Luis",
+        "edad": 20,
+        "hobby": "cantar"
+    }
+
+    print(persona)
+    print(persona["nombre"])
+    print(persona.get("edad"))
+    print(persona.values())
+
+    print("-------------------------------------")
+    for a, p in persona.items():
+        print("{}: {}".format(a, p))
+
+diccionary()
