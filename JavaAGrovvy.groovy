@@ -78,3 +78,20 @@ class Saludador
 }
 def saludador = new Saludador(saludo: "Hola");
 saludador.diHola("Sheldon", "Leonard", "Raj", "Howad");
+
+
+
+///Ejemplo de Transformaciones AppBuilders
+
+import groovy.transform.builder.Builder
+
+@Builder
+class Persona{
+    String name
+    int edad
+}
+
+Persona.Builder()
+       .name("Ivan")
+       .edad(36)
+       .build()
