@@ -95,3 +95,11 @@ Persona.Builder()
        .name("Ivan")
        .edad(36)
        .build()
+
+// Ejemplo de multiline String
+def name = "Iván"
+def edad = 36
+def query = """
+    insert into people(fisrtname, age)
+    values(${name}, ${edad})
+"""
